@@ -1,7 +1,8 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
+*$pyfrontend/node_modules/
+node_modules/class
 *.so
 .Python
 build/
@@ -37,11 +38,11 @@ backend/*.sqlite
 backend/*.sqlite3
 
 # Node.js
-frontent/node_modules/
-frontent/npm-debug.log*
-frontent/yarn-debug.log*
-frontent/yarn-error.log*
-frontent/lerna-debug.log*
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
 
 # Runtime data
 pids
